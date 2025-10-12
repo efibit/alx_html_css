@@ -223,3 +223,43 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+.our-results {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.our-results h3 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.result {
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.result .icon {
+  font-size: 48px;
+  color: #FF6565;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.result h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 16px;
+  line-height: 1.5;
+}
