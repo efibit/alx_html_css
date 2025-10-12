@@ -1,0 +1,12 @@
+a:hover,
+a:active {
+  color: #FF6565;
+}
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
