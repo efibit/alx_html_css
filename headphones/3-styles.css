@@ -1,0 +1,329 @@
+/* Background image and overlay */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('headphones_hero_1.jpg') center/cover no-repeat;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+}
+
+/* Centered content */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+  color: #FF6565;
+}
+
+/* Mobile nav */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+}
+
+.mobile-nav a:hover,
+.mobile-nav a:active {
+  color: #FF6565;
+}
+
+/* Main content */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+main {
+  margin-top: 160px; /* pushes all content down from header */
+  text-align: center;
+}
+main p {
+  margin-top: 120px; /* pushes paragraph further down from button */
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+button {
+  background-color: #FF6565;
+  color: white;
+  border: 2px solid white;       /* visible border */
+  border-radius: 30px;           /* curved border */
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 480px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.what-we-do {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.what-we-do h3 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.service {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.service i {
+  font-size: 48px;
+  color: #FF6565;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.service h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.what-we-do {
+  padding: 80px 20px;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
+
+.what-we-do h3 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.service {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.service i {
+  font-size: 48px;
+  color: #FF6565;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.service h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.our-results {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.our-results h3 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.result {
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.result .icon {
+  font-size: 48px;
+  color: #FF6565;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.result h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact {
+  padding: 80px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  animation: fadeIn 1s ease-in;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #FF6565;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #FF6565;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #e14e4e;
+}
+
+/* Optional animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
